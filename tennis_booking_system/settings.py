@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-qm-(3lpalq&&-+(*c!x39znc-tq7@c3xi!jqjj6-@dr38+(_23
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-ricardomor98-project4-sdihjckqx5y.ws-eu117.gitpod.io']
+ALLOWED_HOSTS = ['8000-ricardomor98-project4-sdihjckqx5y.ws-eu117.gitpod.io',
+                'https://github.com/RicardoMor98'
+                'http://127.0.0.1',
+                'localhost',
+                '.codeinstitute-ide.net',
+                'heroku.com',]
 
 
 # Application definition
@@ -38,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookings',
+    'about',
 ]
 
 MIDDLEWARE = [
