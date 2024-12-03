@@ -36,8 +36,9 @@ DEBUG = "DEVELOPMENT" in os.environ
 
 ALLOWED_HOSTS = ['8000-ricardomor98-project4-r8cd0g5sse7.ws-eu117.gitpod.io',
                 'http://127.0.0.1',
-                '.herokuapp.com'
-               ]
+                'localhost',
+                '.herokuapp.com',
+                'https://tennisbookingsystem-0a365b0b2120.herokuapp.com/']
 
 
 # Application definition
