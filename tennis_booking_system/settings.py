@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['8000-ricardomor98-project4-sdihjckqx5y.ws-eu117.gitpod.io',
                 'http://127.0.0.1',
                 'localhost',
                 '.codeinstitute-ide.net',
-                'heroku.com',]
+                'herokuapp.com',]
 
 
 # Application definition
