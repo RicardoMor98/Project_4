@@ -13,11 +13,11 @@ import os
 from pathlib import Path
 import dj_database_url
 
-from dotenv import load_dotenv
+
 
 if os.path.isfile("env.py"):
     import env
-load_dotenv()
+
 
 
 
@@ -34,7 +34,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = "DEVELOPMENT" in os.environ
 
-ALLOWED_HOSTS = ['8000-ricardomor98-project4-sdihjckqx5y.ws-eu117.gitpod.io',
+ALLOWED_HOSTS = ['8000-ricardomor98-project4-r8cd0g5sse7.ws-eu117.gitpod.io',
                 'http://127.0.0.1',
                 'localhost',
                 'herokuapp.com',]
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bookings',
     'about',
-    'tennisbookingsystem',
+    'tennis_booking_system',
 ]
 
 MIDDLEWARE = [
