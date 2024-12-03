@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bookings',
     'about',
-    'tennis_booking_system',
+    'tennisbookingsystem',
 ]
 
 MIDDLEWARE = [
